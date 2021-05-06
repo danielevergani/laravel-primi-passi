@@ -17,3 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/prova', function () {
+    return '<h1> CIAO </h1>';
+});
+
